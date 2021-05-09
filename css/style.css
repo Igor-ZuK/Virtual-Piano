@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+
+body {
+    background-color: #FFFACD;
+}
+
+.container {
+    font-weight: 700;
+    font-size: 20px;
+    font-family: "Poppins", sans-serif;
+    width: 700px;
+    height: 400px;
+    margin: 20% auto;
+    background: #ffff;
+    text-align: center;
+}
+
+.white-keys {
+    position: absolute;
+    height: inherit;
+    width: inherit;
+    display: flex;
+    align-items: center;
+}
+
+.white-keys kbd {
+    flex-grow: 1;
+    height: inherit;
+    border: #747171 solid 1px;
+    line-height: 700px;
+    align-self: flex-end;
+}
+
+.black-keys {
+    display: flex;
+    position: absolute;
+    width: inherit;
+    height: 10em;
+}
+
+.black-keys kbd {
+    color: #fff;
+    background: #000;
+    width: 10%;
+    line-height: 10em;
+    margin-top: -2px;
+}
+
+.W-key {
+    margin-left: 65px;
+}
+
+.E-key {
+    margin-left: 35px;
+}
+
+.T-key {
+    margin-left: 125px;
+}
+
+.Y-key {
+    margin-left: 32px;
+}
+
+.U-key {
+    margin-left: 30px;
+}
